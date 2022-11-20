@@ -48,6 +48,10 @@ class ViewController: UIViewController {
         rvc.paramUpdate = self.isUpdate.isOn // 자동갱신 여부
         rvc.paramInterval = self.interval.value //갱신주기
         
+        @IBAction func onPerformSegue(_ sender: Any) {
+            self.performSegue(withIdentifier: "ManualSubmit", sender: self)
+        }
+        
         // 화면 이동
         self.navigationController?.pushViewController(rvc, animated: true)
     }
