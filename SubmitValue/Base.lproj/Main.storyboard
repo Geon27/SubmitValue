@@ -57,7 +57,7 @@
                                     <action selector="onStepper:" destination="BYZ-38-t0r" eventType="valueChanged" id="hBC-cX-604"/>
                                 </connections>
                             </stepper>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0분 마다" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="En7-sf-rwc">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="4분 마다" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="En7-sf-rwc">
                                 <rect key="frame" x="124" y="373" width="46" height="16"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
@@ -160,9 +160,9 @@
                     </view>
                     <navigationItem key="navigationItem" id="bWS-0f-uDQ"/>
                     <connections>
-                        <outlet property="resultEmail" destination="eSM-47-LeC" id="tF2-RP-Et5"/>
-                        <outlet property="resultInterval" destination="Ldo-Wg-hkU" id="0A1-cJ-aNt"/>
-                        <outlet property="resultUpdate" destination="Cki-1z-dFD" id="maa-fD-M6G"/>
+                        <outlet property="resultEmail" destination="eSM-47-LeC" id="hVZ-Cq-TDH"/>
+                        <outlet property="resultInterval" destination="Ldo-Wg-hkU" id="5h4-Gb-ENx"/>
+                        <outlet property="resultUpdate" destination="Cki-1z-dFD" id="QQD-Xn-YKo"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Xb2-cG-qJI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
