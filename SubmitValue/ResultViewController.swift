@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ResultViewControoller: UIViewController {
+class ResultViewController: UIViewController {
     
     // 화면값을 표시하는데 사용될 레이블
     
@@ -21,4 +21,13 @@ class ResultViewControoller: UIViewController {
     var paramUpdate: Bool = false
     // 3. Interval 값을 받을 변수
     var paramInterval: Double = 0
+    
+    override func viewDidLoad() {
+        self.resultEmail.text = paramEmail
+        self.resultUpdate.text = (self.paramUpdate == true ? "자동갱신" : "자동갱신안함")
+        self.resultInterval.text = "\(Int(paramInterval))분 마다 갱신"
+    }
+    @IBAction func onBack(_ sender: Any) {
+        self.presentingViewController?.dismiss(animated: true)
+    }
 }

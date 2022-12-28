@@ -38,7 +38,7 @@ class ViewController: UIViewController {
     }
     @IBAction func onSubmit(_ sender: Any) {
         // VC2의 인스턴스 생성
-        guard let rvc = self.storyboard?.instantiateViewController(withIdentifier: "RVC") as? ResultViewControoller else {
+        guard let rvc = self.storyboard?.instantiateViewController(withIdentifier: "RVC") as? ResultViewController else {
             return
         }
         
